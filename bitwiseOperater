@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+
+int bitwiseAnd(int a, int b){
+    return a & b;
+}
+
+int bitwiseOr(int a, int b){
+    return a | b;
+}
+
+int bitwiseXOR(int a, int b){
+    return a ^ b;
+}
+
+int bitwiseLeftShift(int a, int b){
+    return a << b;
+}
+
+int bitwiseRightShift(int a, int b){
+    return a >> b;
+}
+
+int main(){
+
+    cout<< bitwiseAnd(6,10) << endl;
+
+    cout<< bitwiseOr(6,10) << endl;
+
+    cout<< bitwiseXOR(6,10) << endl;
+
+    cout<< bitwiseLeftShift(6,10) << endl;
+
+    cout<< bitwiseRightShift(6,10) << endl;
+
+    return 0;
+}
